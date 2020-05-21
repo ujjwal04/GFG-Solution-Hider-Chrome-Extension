@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "GFG Solution Hider",
+    "version" : "0.1.0",
+    "author": "Ujjwal Verma",
+    "content_scripts": [
+        {
+            "matches":["*://*.geeksforgeeks.org/*"],
+            "js":["script.js"]
+        }
+    ]
+}
